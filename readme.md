@@ -1,25 +1,24 @@
 --post api 
 
-http://<minikube-ip>/api/v1/create
+http://minikube-ip/api/v1/create
 
 body - 
 
 {	
 	"email" : "jaswanth@gmail.com",
 	"password":"demo",
-	"age":22
-	
+	"age":22	
 }
 
 
 --- get
 
-http://<minikube-ip>/api/v1/getAll
+http://minikube-ip/api/v1/getAll
 
 
 --- update
 
-http://192.168.99.100/api/v1/update
+http://minikube-ip/api/v1/update
 
 body -
 
