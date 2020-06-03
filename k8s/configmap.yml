@@ -1,0 +1,9 @@
+#create ConfigMap with key and value, which has to be accessed while deploying SpringBoot application
+#For example `message: Welcome...`
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sb-config
+data:
+  mysql_database: "userdb"
+  mysql_url: "jdbc:mysql://mysql:3306/userdb"
